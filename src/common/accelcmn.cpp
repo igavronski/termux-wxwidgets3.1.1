@@ -230,7 +230,7 @@ wxAcceleratorEntry::ParseAccel(const wxString& text, int *flagsOut, int *keyOut)
 
         case 1:
             // it's just a letter
-            keyCode = current[0U];
+            keyCode = current[(size_t)0U];
 
             // ...or maybe not. A translation may be single character too (e.g.
             // Chinese), but if it's a Latin character, that's unlikely

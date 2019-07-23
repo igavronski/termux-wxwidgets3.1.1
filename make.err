@@ -1,0 +1,41 @@
+clang version 8.0.0 (tags/RELEASE_800/final)
+Target: aarch64-unknown-linux-android
+Thread model: posix
+InstalledDir: /data/data/com.termux/files/usr/bin
+ "/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld" -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o wxrc /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/home/wxWidgets/lib -L/data/data/com.termux/files/usr/lib -L/data/data/com.termux/files/usr/bin/../lib wxrc_wxrc.o -llog -lwx_baseu_xml-3.1 -lexpat -lwx_baseu-3.1 -lwxregexu-3.1 -llog -lz -lm -lz -lm -lc++_shared -lgcc -ldl -lm -lc -lgcc -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o: in function `XmlResApp::OnRun()':
+wxrc.cpp:(.text+0x10f8): undefined reference to `wxCmdLineParser::Init()'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1108): undefined reference to `wxCmdLineParser::SetCmdLine(int, wxCmdLineArgsArray const&)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1118): undefined reference to `wxCmdLineParser::SetDesc(wxCmdLineEntryDesc const*)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1124): undefined reference to `wxCmdLineParser::Parse(bool)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x119c): undefined reference to `wxCmdLineParser::~wxCmdLineParser()'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x11bc): undefined reference to `wxCmdLineParser::~wxCmdLineParser()'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o: in function `XmlResApp::ParseParams(wxCmdLineParser const&)':
+wxrc.cpp:(.text+0x11fc): undefined reference to `wxCmdLineParser::Found(wxString const&) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1238): undefined reference to `wxCmdLineParser::Found(wxString const&) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1274): undefined reference to `wxCmdLineParser::Found(wxString const&) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x12b0): undefined reference to `wxCmdLineParser::Found(wxString const&) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x12f4): undefined reference to `wxCmdLineParser::Found(wxString const&) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o:wxrc.cpp:(.text+0x1338): more undefined references to `wxCmdLineParser::Found(wxString const&) const' follow
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o: in function `XmlResApp::ParseParams(wxCmdLineParser const&)':
+wxrc.cpp:(.text+0x13c8): undefined reference to `wxCmdLineParser::Found(wxString const&, wxString*) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1404): undefined reference to `wxCmdLineParser::Found(wxString const&, wxString*) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x168c): undefined reference to `wxCmdLineParser::Found(wxString const&, wxString*) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x16c8): undefined reference to `wxCmdLineParser::GetParamCount() const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x16e4): undefined reference to `wxCmdLineParser::GetParam(unsigned long) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x1718): undefined reference to `wxCmdLineParser::GetParamCount() const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o: in function `XmlResApp::MakePackageCPP(wxArrayString const&)':
+wxrc.cpp:(.text+0x3838): undefined reference to `wxTheMimeTypesManager'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x383c): undefined reference to `wxTheMimeTypesManager'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x3848): undefined reference to `wxMimeTypesManager::GetFileTypeFromExtension(wxString const&)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x385c): undefined reference to `wxFileType::GetMimeType(wxString*) const'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc.cpp:(.text+0x3864): undefined reference to `wxFileType::~wxFileType()'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o:(.data.rel.ro+0x310): undefined reference to `wxAppConsoleBase::OnInitCmdLine(wxCmdLineParser&)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o:(.data.rel.ro+0x318): undefined reference to `wxAppConsoleBase::OnCmdLineParsed(wxCmdLineParser&)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o:(.data.rel.ro+0x320): undefined reference to `wxAppConsoleBase::OnCmdLineHelp(wxCmdLineParser&)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: wxrc_wxrc.o:(.data.rel.ro+0x328): undefined reference to `wxAppConsoleBase::OnCmdLineError(wxCmdLineParser&)'
+/data/data/com.termux/files/usr/bin/aarch64-linux-android-ld: /data/data/com.termux/files/home/wxWidgets/lib/libwx_baseu-3.1.so: undefined reference to `wxAppTraits::GetEventLoopSourcesManager()'
+clang-8: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [Makefile:114: wxrc] Error 1
+make: *** [Makefile:15163: wxrc] Error 2
+make: *** Waiting for unfinished jobs....

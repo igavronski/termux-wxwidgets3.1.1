@@ -1,0 +1,500 @@
+   16  apt search lcms
+   17  apt search cms
+   18  apt install littlecms-dev
+   19  pwd
+   20  cd ..
+   21  find . -name gtk-config -print
+   22  apt search xlib
+   23  apt install xcb-util-image
+   24  find . -name gtk-config -print
+   25  apt search zlib
+   26  apt install libzopfli-dev
+   27  apt search libc
+   28  apt install libclang-dev
+   29  find . -name gtk-config -print
+   30  gvim bin/gtk-config
+   31  chmod +x bin/gtk-config
+   32  gtk-config
+   33  apt show gtk2
+   34  gvim bin/gtk-config
+   35  gtk-config
+   36  gvim bin/gtk-config
+   37  gtk-config
+   38  gtk-config
+   39  gtk-config
+   40  gtk-config
+   41  gtk-config
+   42  find . -name libffi.pc -print
+   43  apt search ffi
+   44  apt install libffi-dev
+   45  apt install libffi
+   46  gtk-config
+   47  apt search fribi
+   48  apt install fribidi-dev
+   49  gtk-config
+   50  apt install uuid-dev
+   51  apt search uuid
+   52  apt install libuuid-dev
+   53  gtk-config
+   54  apt search xcb
+   55  apt install libxcb-dev
+   56  gtk-config
+   57  apt search xau
+   58  apt install libxau-dev
+   59  gtk-config
+   60  apt search xdmcp
+   61  apt install libxdmcp-dev
+   62  gtk-config
+   63  apt search xext
+   64  apt install libxext-dev
+   65  gtk-config
+   66  history > tmp.txt
+   67  gtk-config >> tmp.txt
+   68  gvim tmp.txt
+   69  man history
+   70  history --help
+   71  gvim tmp.txt
+   72  rm tmp.txt
+   73  gtk-config
+   74  gtk-config | sed -d /-ptrhead/
+   75  gtk-config | sed 's/-ptrhead//'
+   76  gtk-config | sed 's/-pthread//'
+   77  pwd
+   78  top
+   79  pwd
+   80  find . -name '*ICE*' -print
+   81  find . -name '*ICE*' -print | grep -v LICENSE
+   82  apt search ice
+   83  apt install libice-dev
+   84  find . -name '*ICE*' -print | grep -v LICENSE
+   85  top
+   86  env
+   87  pwd
+   88  find . -name '*wx*' -print
+   89  apt search wx
+   90  cd 
+   91  cd wxWidgets/
+   92  vim Makefile
+   93  pwd
+   94  make install
+   95  cp src/generic/grid.cpp src/generic/grid.cpp.old
+   96  gvim src/generic/grid.cpp
+   97  make install
+   98  cp ./src/html/htmlcell.cpp ./src/html/htmlcell.cpp.old
+   99  gvim ./src/html/htmlcell.cpp
+  100  make install
+  101  ls
+  102  lst
+  103  man ls
+  104  ls -tor
+  105  ./wx-config
+  106  ./wx-config --cppflags --cxxflags --cflags --libs
+  107  ls -tor | more
+  108  env
+  109  pwd
+  110  tail make.out
+  111  tail make.err
+  112  tail make.out
+  113  gvim make.err
+  114  ls Make*
+  115  gvim Makefile.in
+  116  env
+  117  man make
+  118  tail make.out
+  119  tail make.err
+  120  tail make.err
+  121  apt search gl
+  122  apt install glu-dev
+  123  pwd
+  124  find $PREFIX -name gl.h -print
+  125  apt search iconv
+  126  apt install libiconv-dev
+  127  apt search notify
+  128  apt install  libnotify-dev
+  129  apt search webkit
+  130  apt search kit
+  131  apt search stream
+  132  apt install gstreamer-dev
+  133  gstreamer
+  134  apt install gst-plugins-base gst-plugins-good
+  135  apt install gst-plugins-base-dev gst-plugins-good-dev
+  136  find $PREFIX -name gl.h -print
+  137  ln -s $PREFIX/include/GLES $PREFIX/include/GL
+  138  find $PREFIX -name 'xf86*.h' -print
+  139  apt secr
+  140  apt search secr
+  141  apt search ssss
+  142  apt search libgf
+  143  apt install libgfshare-dev
+  144  find $PREFIX -name 'sound*.h' -print
+  145  apt show gstreamer
+  146  find $PREFIX -name 'gst.h' -print
+  147  find $PREFIX -name 'sound*.h' -print
+  148  find $PREFIX -name '*secret*.h' -print
+  149  ln -s $PREFIX/include/linux $PREFIX/include/sys
+  150  ls -tor $PREFIX/include | more
+  151  ls -tor $PREFIX/include/sys | more
+  152  unlink $PREFIX/include/sys/lynux
+  153  unlink $PREFIX/include/sys/linux
+  154  gvim $PREFIX/include/linux/soundcard.h
+  155  ls -tor $PREFIX/include/linux/
+  156  pwd
+  157  gvim configure
+  158  ls -tor $PREFIX/include/sys/io*
+  159  ls -tor $PREFIX/include/sys/ao*
+  160  ls -tor $PREFIX/include/sys/so*
+  161  gvim $PREFIX/include/linux/soundcard.h
+  162  ln -s $PREFIX/include/linux $PREFIX/include/sys
+  163  ln -s $PREFIX/include/linux/soundcard.h $PREFIX/include/sys
+  164  unlink $PREFIX/include/sys/linux
+  165  ls -tor $PREFIX/include | more
+  166  ls -tor $PREFIX/include/GL | more
+  167  unlink $PREFIX/include/GL/GLES
+  168  ls -tor $PREFIX/include/GLES | more
+  169  ls -tor $PREFIX/include/GLES2 | more
+  170  ln -s $PREFIX/include/GLES/gl.h $PREFIX/include/GL
+  171  ls -tor $PREFIX/include/GL | more
+  172  pwd
+  173  cd gtk
+  174  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  175  ls -tor $PREFIX/include/GL | more
+  176  ls -tor $PREFIX/include/GLES | more
+  177  gvim $PREFIX/include/GL/gl.h
+  178  ln -s $PREFIX/include/GLES $PREFIX/include/GL
+  179  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  180  env
+  181  find $PREFIX -name gst.h -print
+  182  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  183  env
+  184  gvim config.log
+  185  find $PREFIX -name 'gstre*' -print
+  186  apt search gst
+  187  apt install gst-plugins-base-dev
+  188  find $PREFIX -name 'gstre*' -print
+  189  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  190  make -j4
+  191  make --help
+  192  pwd
+  193  tail -f make.out
+  194  ls
+  195  history > hist2
+  196  mv hist1 ..
+  197  mv hist2 ..
+  198  mv make.out ..
+  199  cd ,,
+  200  cd ..
+  201  ls
+  202  cp hist1 ../storage/downloads
+  203  cp hist2 ../storage/downloads
+  204  cp make.out ../storage/downloads
+  205  apt search vim
+  206  apt install vim-gtk vim-python
+  207  apt install vim-gtk
+  208  gvim .bashrc
+  209  vim .bashrc
+  210  apt install man
+  211  apt 
+  212  apt ull-upgrade
+  213  apt full-upgrade
+  214  man bash
+  215  man apt
+  216  gvim .bashrc
+  217  xclock
+  218  xcal
+  219  cal
+  220  apt search x11
+  221  gvim .bashrc
+  222  apt install libx11-dev
+  223  gvim .bashrc
+  224  nano
+  225  cat < >.bashrc
+  226  cat >.bashrc
+  227  eval $(qpdf --completion-bash)
+  228  alias term='aterm -fn lucidasanstypewriter-12'
+  229  alias disp='export DISPLAY=10.0.0.'
+  230  term
+  231  fg %1
+  232  bg %1
+  233  term
+  234  term&
+  235  bg %1
+  236  bg %2
+  237  jobs
+  238  top
+  239  ls
+  240  pwd
+  241  pkg install unstable-repo
+  242  pkg install x11-repo
+  243  pkg install aterm
+  244  aterm -d 10.0.0.105:0
+  245  env
+  246  cat .bashrc
+  247  env
+  248  env | grep gtk
+  249  vim .bashrc
+  250  cd wxWidgets/
+  251  cd gtk
+  252  make clean
+  253  ls
+  254  grep configure ../hist*
+  255  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  256  cd
+  257  pwd
+  258  vim .bashrc
+  259  cd wxWidgets/gtk
+  260  env | grep LD
+  261  export LDFLAGS="-llog" 
+  262  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  263  cat ~/.bashrc | more
+  264  unset LD_LIBRARY_PATH
+  265  env
+  266  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  267  env
+  268  CFLAGS="-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0 -I/data/data/com.termux/files/usr/include/gtk-2.0"
+  269  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  270  grep make ../hist* | tail
+  271  grep make.out ../hist* | tail
+  272  make >& ../make.out&
+  273  pwd
+  274  cd ..
+  275  ls
+  276  tail make.out
+  277  cd gtk
+  278  top
+  279  jobs
+  280  pwd
+  281  jobs
+  282  pwd
+  283  cd ..
+  284  vim make.out
+  285  cp make.out ~/storage/downloads/make.out.txt 
+  286  apt search libxxf86vm
+  287  pkg i libxxf86vm-dev
+  288  pkg i libxxf86dga-dev
+  289  find $PREFIX -name '*xf86*' -print
+  290  find $PREFIX -name '*xf86*.h' -print
+  291  find $PREFIX -name '*xf86*.h' -print > lib.tmp
+  292  vim lib.tmp
+  293  uniq lib.tmp | wc -l
+  294  uniq lib.tmp > l.tmp
+  295  cat l.tmp
+  296  grep xcb ~/.bashrc
+  297  grep dri ~/.bashrc
+  298  cat l.tmp > lib.tmp
+  299  vi l.tmp
+  300  cat l.tmp > lib.tmp
+  301  env
+  302  echo $CFLAGS | wc
+  303  export CFLAGS="$CFLAGS `cat l.tmp`"
+  304  echo $CFLAGS | wc
+  305  pwd
+  306  cd gtk
+  307  echo $CFLAGS
+  308  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  309  pkg search sdl
+  310  pkg sdl-dev
+  311  pkg i sdl-dev
+  312  pkg search stl
+  313  pkg search stl
+  314  pkg i sdl-dev
+  315  make clean
+  316  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  317  apt search libmspack
+  318  apt search spack
+  319  apt search libms
+  320  pkg search sdl
+  321  pkg i sdl2-dev sdl2-image-dev sdl2-ttf-dev
+  322  apt search libweb
+  323  apt install libwebp-dev
+  324  make clean
+  325  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  326  cd ..
+  327  pwd
+  328  ls
+  329  ls *tmp
+  330  vi lib.tmp
+  331  cat lib.tmp>>~/.bashrc
+  332  vim ~/.bashrc
+  333  find $PREFIX -name '*sdl*.h' -print
+  334  more `find $PREFIX -name '*sdl*.h' -print`
+  335  find $PREFIX -name '*sgpack*.h' -print
+  336  find $PREFIX -name '*SDL*.h' -print
+  337  export CFLAGS="$CFLAGS $PREFIX/include/SDL"
+  338  cd
+  339  vim .bashrc
+  340  pwd
+  341  cd wxWidgets/gtk
+  342  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  343  vim .bashrc
+  344  cd
+  345  vim .bashrc
+  346  cd wxWidgets/gtk
+  347  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  348  echo $CFLAGS
+  349  env
+  350  export LDFLAGS="-llog"
+  351  pwd
+  352  make clean
+  353  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  354  env
+  355  unset LD_LIBRARY
+  356  env
+  357  unset LD_LIBRARY_PATH
+  358  env
+  359  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  360  cd
+  361  vim .bashrc 
+  362  cd wxWidgets/gtk
+  363  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  364  env
+  365  cd
+  366  vim .bashrc 
+  367  cd wxWidgets/gtk
+  368  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  369  apt search mesa
+  370  apt search glu
+  371  apt install freeglut-dev
+  372  find $PREFIX -name glx.h -print
+  373  find $PREFIX -name keysim.h -print
+  374  find $PREFIX -name keysym.h -print
+  375  env |grep xcb
+  376  pwd
+  377  make clean
+  378  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  379  cd wxWidgets/gtk
+  380  make clean
+  381  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  382  apt search ogl
+  383  apt search gl
+  384  pkg i taglib-dev
+  385  which locate
+  386  locate
+  387  pkg i mlocate
+  388  locate OpenGL.h
+  389  pkg search glew
+  390  updatedb
+  391  locate X.h
+  392  locate gl.h
+  393  pwd
+  394  vim .bashrc
+  395  grep '-I' wxWidgets/hist*
+  396  grep 'I' wxWidgets/hist*
+  397  grep 'gst' wxWidgets/hist*
+  398  vim .bashrc
+  399  locate OpenGL.h
+  400  locate gl.h
+  401  vim .bashrc
+  402  vim .bashrc
+  403  backtrace
+  404  locate backtrace
+  405  more `locate backtrace`
+  406  locate sdl
+  407  sdl2-config
+  408  sdl2-config --libs
+  409  sdl-config
+  410  sdl-config --cflags
+  411  sdl-config --libs
+  412  sdl2-config --cflags
+  413  pwd
+  414  cd wxWidgets/
+  415  tail -f make.out
+  416  ldconfig
+  417  find $p -name '*gl*.h' -print
+  418  pwd
+  419  ls
+  420  cd wxWidgets/
+  421  find $p -name '*gl*.h' -print > lib.tmp
+  422  vi lib.tmp
+  423  vi lib.tmp
+  424  uniq lib.tmp > l.tmp
+  425  vim l.tmp
+  426  env
+  427  export CFLAGS="$CFLAGS `cat l.tmp`"
+  428  pwd
+  429  make clean
+  430  pwd
+  431  cd gtk
+  432  make clean
+  433  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  434  env|more
+  435  pwd
+  436  env|more
+  437  export CFLAGS="$CFLAGS `sdl2-config --cflags`"
+  438  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  439  history | grep make.out
+  440  pwd
+  441  make >& ../make.out&
+  442  jobs
+  443  alias
+  444  jobs
+  445  jobs
+  446  alias
+  447  disp 105:0
+  448  export DISPLAY=10.0.0.105:0
+  449  term&
+  450  cd $i
+  451  pwd
+  452  grep -r backtrace *.h
+  453  grep -r backtrace *
+  454  grep -r backtrace * | more
+  455  find . -name '*elf*' -print
+  456  ls elfutils
+  457  more elf.h
+  458  grep -ri backtrace * | more
+  459  pwd
+  460  env
+  461  cd $OLDPWD
+  462  pwd
+  463  cd ..
+  464  gvim interface/wx/cmdline.h 
+  465  cd gtk
+  466  pwd
+  467  make clean
+  468  ../configure --with-gtk=2 --prefix=$PREFIX --enable-cmdline
+  469  ../configure --with-gtk=2 --enable-cmdline
+  470  make -j install
+  471  pwd
+  472  top
+  473  gvim
+  474  apt 
+  475  apt list --installed
+  476  which gtk-config
+  477  echo $p
+  478  exit
+  479  pwd
+  480  cd wxWidgets/gtk
+  481  make -j4 install
+  482  make clean
+  483  ../configure --with-gtk=2 --prefix=$PREFIX --enable-cmdline
+  484  fg %1
+  485  make -j4 install
+  486  make clean
+  487  ../configure --with-gtk=2 --enable-cmdline
+  488  make -j4 install
+  489  gvim Makefile
+  490  make -j4 install
+  491  pwd
+  492  gvim Makefile
+  493  make -j8 install
+  494  make clean
+  495  make -j8 install
+  496  export SDL_CONFIG=sdl2-config
+  497  $SDL_CONFIG
+  498  pwd
+  499  make clean
+  500  cd ../..
+  501  pwd
+  502  grep -r GetEventLoopSourcesManager *
+  503  ln -s lib/libwx_baseu-3.1.so.1.0.0 lib/libwx_baseu-3.1.so
+  504  diff lib/libwx_baseu-3.1.so.1.0.0 lib/libwx_baseu-3.1.so
+  505  ls - lib/libwx_baseu-3.1.so.1.0.0 lib/libwx_baseu-3.1.so
+  506  ls -l lib/libwx_baseu-3.1.so.1.0.0 lib/libwx_baseu-3.1.so
+  507  unlink lib/libwx_baseu-3.1.so
+  508  ln -s lib/libwx_baseu-3.1.so.1.0.0 lib/libwx_baseu-3.1.so
+  509  ln -s lib/libwx_gtk2u_core-3.1.so.1.0.0 lib/libwx_gtk2u_core-3.1.so
+  510  ls -l lib/libwx_gtk2u_core-3.1.so.1.0.0 lib/libwx_gtk2u_core-3.1.so
+  511  unlink lib/libwx_gtk2u_core-3.1.so
+  512  ln -s lib/libwx_gtk2u_core-3.1.so.1.0.0 lib/libwx_gtk2u_core-3.1.so
+  513  ls hist*
+  514  ls ../hist*
+  515  history >../hist3

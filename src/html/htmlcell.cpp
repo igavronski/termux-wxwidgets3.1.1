@@ -308,7 +308,7 @@ wxHtmlWordCell::wxHtmlWordCell(const wxString& word, const wxDC& dc) : wxHtmlCel
 void wxHtmlWordCell::SetPreviousWord(wxHtmlWordCell *cell)
 {
     if ( cell && m_Parent == cell->m_Parent &&
-         !wxIsspace(cell->m_Word.Last()) && !wxIsspace(m_Word[0u]) )
+         !wxIsspace(cell->m_Word.Last()) && !wxIsspace(m_Word[(size_t)0u]) )
     {
         m_allowLinebreak = false;
     }

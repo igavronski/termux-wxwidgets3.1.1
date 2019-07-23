@@ -1148,7 +1148,7 @@ wxString wxGridTableBase::GetColLabelValue( int col )
     //   etc.
 
     wxString s;
-    unsigned int i, n;
+    int i, n;
     for ( n = 1; ; n++ )
     {
         s += (wxChar) (wxT('A') + (wxChar)(col % 26));

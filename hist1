@@ -1,0 +1,182 @@
+    1  apt install lynx
+    2  lynx www.audacityteam.org
+    3  ls
+    4  wget https://www.fosshub.com/Audacity.html?dwl=audacity-minsrc-2.3.2.tar.xz
+    5  wget https://www.fosshub.com/audacity-minsrc-2.3.2.tar.xz
+    6  wget https://download.fosshub.com/Protected/expiretime=1562681608;badurl=aHR0cHM6Ly93d3cuZm9zc2h1Yi5jb20vQXVkYWNpdHkuaHRtbA==/795d2009728f9449a7337989e3517efbe3acdd1267d17dbcb897347b261ba0d2/5b7eee97e8058c20a7bbfcf4/5cd977044525770a47e45e5d/audacity-minsrc-2.3.2.tar.xz
+    7  curl https://download.fosshub.com/Protected/expiretime=1562681608;badurl=aHR0cHM6Ly93d3cuZm9zc2h1Yi5jb20vQXVkYWNpdHkuaHRtbA==/795d2009728f9449a7337989e3517efbe3acdd1267d17dbcb897347b261ba0d2/5b7eee97e8058c20a7bbfcf4/5cd977044525770a47e45e5d/audacity-minsrc-2.3.2.tar.xz
+    8  pkg install curl
+    9  curl https://download.fosshub.com/Protected/expiretime=1562681608;badurl=aHR0cHM6Ly93d3cuZm9zc2h1Yi5jb20vQXVkYWNpdHkuaHRtbA==/795d2009728f9449a7337989e3517efbe3acdd1267d17dbcb897347b261ba0d2/5b7eee97e8058c20a7bbfcf4/5cd977044525770a47e45e5d/audacity-minsrc-2.3.2.tar.xz
+   10  curl https://www.fosshub.com/Audacity.html?dwl=audacity-minsrc-2.3.2.tar.xz
+   11  storage
+   12  setup-storage
+   13  termux-setup-storage 
+   14  ls
+   15  pwd
+   16  ls
+   17  ls storage/downloads
+   18  env
+   19  cal
+   20  pwd
+   21  cd wxWidgets/
+   22  ls
+   23  ./configure --with-gtk=2 --prefix=$PREFIX
+   24  env
+   25  export CFLAGS=-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0
+   26* export CFLAGS="-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0 -I$PREFIX/"
+   27  ./configure --with-gtk=2 --prefix=$PREFIX
+   28  find $PREFIX -name gtkmain.h -print
+   29  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0 -I$PREFIX/include/gtk-2.0/gtk"
+   30  ./configure --with-gtk=2 --prefix=$PREFIX
+   31  export LDFLAGS="-llog -v --system-header-prefix=$PREFIX"
+   32  ./configure --with-gtk=2 --prefix=$PREFIX
+   33  find $PREFIX -name gtk-config -print
+   34  find $PREFIX -name 'gtk-config*' -print
+   35  ./configure --with-gtk=2 --prefix=$PREFIX --gtk-prefix=$PREFIX
+   36  ./configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX
+   37  make j4
+   38  make -j4
+   39  ls
+   40  pwd
+   41  ls M*
+   42  gvim Makefile
+   43  cp Makefile Makefile.old
+   44  gvim Makefile
+   45  make -j4 > make.out
+   46  cp Makefile Makefile.nopthread
+   47  cp Makefile.old Makefile
+   48  make -j4 > make.out
+   49  make -j4 > make.out 2>make.err
+   50  gvim make.err
+   51* 
+   52  cd include/
+   53  cd wx
+   54  gvim filename.h 
+   55  cd ../..
+   56  make -j4 > make.out 2>make.err
+   57  gvim make.err
+   58  ls
+   59  ls src
+   60  gvim make.err
+   61  ls src/common
+   62  gvim src/common/filename.cpp 
+   63  cp src/common/filename.cpp src/common/filename.cpp.old
+   64  gvim src/common/filename.cpp 
+   65  gvim make.err
+   66  cp src/common/filefn.cpp src/common/filefn.cpp.old
+   67  gvim src/common/filefn.cpp
+   68  cp src/common/filesys.cpp src/common/filesys.cpp.old
+   69  gvim src/common/filesys.cpp
+   70  make -j4 > make.out 2>make.err
+   71  gvim src/common/filesys.cpp
+   72  ./configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX --with-lib-preference="local system" CXXFLAGS="-std=c++11"
+   73  ./configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+   74  make -j4 > make.out 2>make.err
+   75  wx-config
+   76  make -j4 > make.out 2>make.err
+   77  make -j4 > make.out 2>make.err
+   78  make -j4 > make.out 2>make.err
+   79  cp src/common/uri.cpp src/common/uri.cpp.old
+   80  gvim src/common/uri.cpp
+   81  make -j4 > make.out 2>make.err
+   82  cp src/common/variant.cpp src/common/variant.cpp.old
+   83  gvim src/common/variant.cpp 
+   84  make -j4 > make.out 2>make.err
+   85  cp src/common/ftp.cpp src/common/ftp.cpp.old
+   86  gvim src/common/ftp.cpp
+   87  make -j4 > make.out 2>make.err
+   88  cp src/common/http.cpp src/common/http.cpp.old
+   89  make -j4 > make.out 2>make.err
+   90  gvim src/common/http.cpp
+   91  make -j4 > make.out 2>make.err
+   92  make -j4 > make.out 2>make.err
+   93  cp src/common/accelcmn.cpp src/common/accelcmn.cpp.old
+   94  gvim src/common/accelcmn.cpp
+   95  make -j4 > make.out 2>make.err
+   96  cp /src/common/fldlgcmn.cpp /src/common/fldlgcmn.cpp.old
+   97  cp src/common/fldlgcmn.cpp src/common/fldlgcmn.cpp.old
+   98  gvim src/common/fldlgcmn.cpp
+   99  make -j4 > make.out 2>make.err
+  100  gvim
+  101  ls include/wx/stri*
+  102  ls include/wx/stri*
+  103  ls include/wx/filen*
+  104  pwd
+  105  ls
+  106  cd ..
+  107  pwd
+  108  ls
+  109  cp storage/downloads/audacity-minsrc-2.3.2.tar.xz .
+  110  tar -xf audacity-minsrc-2.3.2.tar.xz 
+  111  cd audacity-minsrc-2.3.2
+  112  cd ..
+  113  cd wxWidgets/
+  114  cd samples
+  115  ls
+  116  cd calendar
+  117  ls
+  118  make
+  119  env
+  120  export LDFLAGS=-llog -v --system-header-prefix=/data/data/com.termux/files/usr
+  121  export LDFLAGS="-llog -v --system-header-prefix=/data/data/com.termux/files/usr"
+  122  export CFLAGS="-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0"
+  123  make
+  124  pwd
+  125  env
+  126  pwd
+  127  cd ../..
+  128  pwd
+  129  make -j4 install > make.out 2>make.err
+  130  make -j4 $CFLAGS install > make.out 2>make.err
+  131  make -j4 -d $CFLAGS install > make.out 2>make.err
+  132  gvim Makefile
+  133  pwd
+  134  make clean
+  135  ls
+  136  mkdir gtk
+  137  cd gtk
+  138  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX --with-lib-preference="local system" CXXFLAGS="-std=c++11"
+  139  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  140  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  141  env
+  142  find $PREFIX -name gl.h -print
+  143  export CFLAGS="$CFLAGS -I$PREFIX/include/GLES"
+  144  env
+  145  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  146  export CFLAGS="$CFLAGS -I$PREFIX/include/linux"
+  147  gvim ~/.bashrc
+  148  export CFLAGS="$CFLAGS -I$PREFIX/include/gstreamer-1.0"
+  149  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  150  pwd
+  151  env
+  152  export CFLAGS=-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0 -I/data/data/com.termux/files/usr/include/GLES -I/data/data/com.termux/files/usr/include/linux -I/data/data/com.termux/files/usr/include/gstreamer-1.0
+  153  export CFLAGS="-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0 -I/data/data/com.termux/files/usr/include/GLES -I/data/data/com.termux/files/usr/include/linux -I/data/data/com.termux/files/usr/include/gstreamer-1.0"
+  154  make clean
+  155  ls
+  156  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  157  gvim config.log
+  158  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  159  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  160  gvim config.log
+  161  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  162  env
+  163  export "CFLAGS=-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0"
+  164  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  165  export "CFLAGS=-I/data/data/com.termux/files/usr/include/glib-2.0 -I/data/data/com.termux/files/usr/lib/glib-2.0/include -I/data/data/com.termux/files/usr/include -I/data/data/com.termux/files/usr/include/cairo -I/data/data/com.termux/files/usr/include/pango-1.0 -I/data/data/com.termux/files/usr/lib/gtk-2.0/include -I/data/data/com.termux/files/usr/include/gdk-pixbuf-2.0 -I/data/data/com.termux/files/usr/include/atk-1.0 -I$PREFIX/include/gstreamer-1.0"
+  166  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  167  apt search gl
+  168  apt search opengl
+  169  apt show freeglut
+  170  apt show glu
+  171  apt search mesa
+  172  apt install mesa-dev
+  173  env
+  174  pwd
+  175  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  176  env
+  177  make clean
+  178  make -j4
+  179  make clean
+  180  make >& make.out
+  181  pwd
+  182  history > hist1

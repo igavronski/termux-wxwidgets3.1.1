@@ -64,7 +64,7 @@ wxString wxFileSystemHandler::GetMimeTypeFromExt(const wxString& location)
     l2 = l;
     for (int i = l-1; i >= 0; i--)
     {
-        c = loc[(unsigned int) i];
+        c = loc[(int) i];
         if ( c == wxT('#') )
             l2 = i + 1;
         if ( c == wxT('.') )
@@ -398,9 +398,9 @@ void wxFileSystem::ChangePathTo(const wxString& location, bool is_dir)
     {
         for (i = m_Path.length()-1; i >= 0; i--)
         {
-            if (m_Path[(unsigned int) i] == wxT('/'))
+            if (m_Path[(int) i] == wxT('/'))
             {
-                if ((i > 1) && (m_Path[(unsigned int) (i-1)] == wxT('/')) && (m_Path[(unsigned int) (i-2)] == wxT(':')))
+                if ((i > 1) && (m_Path[(int) (i-1)] == wxT('/')) && (m_Path[(int) (i-2)] == wxT(':')))
                 {
                     i -= 2;
                     continue;
@@ -411,7 +411,7 @@ void wxFileSystem::ChangePathTo(const wxString& location, bool is_dir)
                     break;
                 }
             }
-            else if (m_Path[(unsigned int) i] == wxT(':')) {
+            else if (m_Path[(int) i] == wxT(':')) {
                 pathpos = i;
                 break;
             }
@@ -420,7 +420,7 @@ void wxFileSystem::ChangePathTo(const wxString& location, bool is_dir)
         {
             for (i = 0; i < (int) m_Path.length(); i++)
             {
-                if (m_Path[(unsigned int) i] == wxT(':'))
+                if (m_Path[(int) i] == wxT(':'))
                 {
                     m_Path.Remove(i+1);
                     break;
@@ -463,7 +463,7 @@ wxFSFile* wxFileSystem::OpenFile(const wxString& location, int flags)
         return NULL;
 
     wxString loc = MakeCorrectPath(location);
-    unsigned i, ln;
+    int i, ln;
     wxChar meta;
     wxFSFile *s = NULL;
     wxList::compatibility_iterator node;
@@ -535,7 +535,7 @@ wxString wxFileSystem::FindFirst(const wxString& spec, int flags)
     m_FindFileHandler = NULL;
 
     for (int i = spec2.length()-1; i >= 0; i--)
-        if (spec2[(unsigned int) i] == wxT('\\')) spec2.GetWritableChar(i) = wxT('/'); // Want to be windows-safe
+        if (spec2[(int) i] == wxT('\\')) spec2.GetWritableChar(i) = wxT('/'); // Want to be windows-safe
 
     node = m_Handlers.GetFirst();
     while (node)
@@ -582,7 +582,7 @@ bool wxFileSystem::FindFileInPath(wxString *pStr,
 
     wxString name;
     // skip path separator in the beginning of the file name if present
-    if ( wxIsPathSeparator(basename[0u]) )
+    if ( wxIsPathSeparator(basename[(size_t)0u]) )
         name = basename.substr(1);
     else
         name = basename;
@@ -674,13 +674,13 @@ wxFileName wxFileSystem::URLToFileName(const wxString& url)
     // file urls either start with a forward slash (local harddisk),
     // otherwise they have a servername/sharename notation,
     // which only exists on msw and corresponds to a unc
-    if ( path.length() > 1 && (path[0u] == wxT('/') && path [1u] != wxT('/')) )
+    if ( path.length() > 1 && (path[(size_t)0u] == wxT('/') && path [(size_t)1u] != wxT('/')) )
     {
         path = path.Mid(1);
     }
     else if ( (url.Find(wxT("file://")) == 0) &&
               (path.Find(wxT('/')) != wxNOT_FOUND) &&
-              (path.length() > 1) && (path[1u] != wxT(':')) )
+              (path.length() > 1) && (path[(size_t)1u] != wxT(':')) )
     {
         path = wxT("//") + path;
     }

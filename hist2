@@ -1,0 +1,499 @@
+    1  pkg install qpdf
+    2  gvim .bashrc
+    3  pkg i vim-gtk
+    4  pkg i --help
+    5  man apt
+    6  apt show vim-gtk
+    7  apt show vim-gtk -a
+    8  apt list
+    9  apt install xorg-xclock
+   10  xclock
+   11  apt search xauth
+   12  apt search mesa
+   13  apt install glu]
+   14  apt install glu
+   15  gvim .bashrc
+   16  apt search xt
+   17  apt install libxt-dev
+   18  gvim .bashrc
+   19  apt search libsm
+   20  apt install libsm-dev
+   21  apt search libxr
+   22  gvim .bashrc
+   23  apt install libxrender-dev
+   24  gvim .bashrc
+   25  apt search fontco
+   26  apt install fontconfig-dev
+   27  gvim .bashrc
+   28  find $PREFIX -name 'libXt*' -print
+   29  ln -s $PREFIX/lib/libXt.so $PREFIX/lib/libXt.so.6
+   30  gvim .bashrc
+   31  apt search chromium
+   32  apt search chrom
+   33  apt search firec
+   34  apt search firef
+   35  apt search lynx
+   36  apt search browser
+   37  apt install w3m
+   38  w3m
+   39  w3m www.audacityteam.org
+   40  ls
+   41  ls -l
+   42  pwd
+   43  apt install build-essential cmake gcc autoconf
+   44  apt install build-essential cmake autoconf
+   45  apt search mp3
+   46  apt install libmp3lame-dev
+   47  apt search libav
+   48  apt search avfor
+   49  apt search ffmp
+   50  apt i ffmpeg-dev
+   51  apt install ffmpeg-dev
+   52  apt search jack
+   53  pwd
+   54  cd
+   55  apt search asound
+   56  apt search sound
+   57  apt install libpulseaudio
+   58  apt install pulseaudio
+   59  apt search audio
+   60  apt install libpulseaudio-dev
+   61  apt install sdl2-dev
+   62  apt search gtk
+   63  apt instal gtk2-dev
+   64  apt install gtk2-dev
+   65  find $PREFIX -name 'libXt*' -print
+   66  git clone --recurse-submodules https://github.com/audacity/wxWidgets/wx311
+   67  pkg i git
+   68  git clone --recurse-submodules https://github.com/audacity/wxWidgets/wx311
+   69  git clone --recurse-submodules https://github.com/audacity/wxWidgets
+   70  ld
+   71  ls
+   72  cd wxWidgets/
+   73  ls
+   74  ls -l
+   75  configure --with-gtk=2
+   76  ./configure --with-gtk=2
+   77  pkg search threa
+   78  pkg i libnpth-dev
+   79  pkg upgrade
+   80  ls
+   81  ./configure --with-gtk=2
+   82  find / -name zlib.h -print
+   83  find $PREFIX -name zlib.h -print
+   84  pkg search zlib
+   85  pkg i libzopfli-dev
+   86  find $PREFIX -name zlib.h -print
+   87  pkg i zlib-dev
+   88  find $PREFIX -name zlib.h -print
+   89  ./configure --with-gtk=2
+   90  find $PREFIX -name 'gthre*' -print
+   91  pkg-config gtk+-2.0 --libs
+   92  gtk-config --libs
+   93  apt search pango
+   94  apt install pango-dev pango-x-dev
+   95  apt install pango-x-dev
+   96  pkg-config gtk+-2.0 --libs
+   97  apt search glib
+   98  aptinstall glib-dev
+   99  apt install glib-dev
+  100  pkg-config gtk+-2.0 --libs
+  101  apt search pix
+  102  apt install gdk-pixbuf-dev
+  103  pkg-config gtk+-2.0 --libs
+  104  apt install atk-dev
+  105  pkg-config gtk+-2.0 --libs
+  106  ./configure --with-gtk=2
+  107  pkg-config gtk+-2.0 --libs
+  108  apt search gtk
+  109  ls
+  110  cp config.log ../storage/downloads
+  111  find $PREFIX -name 'gtk.h' -print
+  112  find $PREFIX -name 'jpeglib.h' -print
+  113  find $PREFIX -name 'expat.h' -print
+  114  find $PREFIX -name 'jbig' -print
+  115  apt search jpeg
+  116  apt install libjpeg-turbo-dev
+  117  find $PREFIX -name 'jpeglib.h' -print
+  118  apt search expat
+  119  apt install libexpat-dev
+  120  apt search jbig
+  121  apt install jbig2dec-dev
+  122  ./configure --with-gtk=2
+  123  pkg-config gtk+-2.0 --libs
+  124  find $PREFIX -name 'gtk.h' -print
+  125  gvim configure
+  126  ./configure --with-gtk=2 --with-gtk-prefix=/data/data/com.termux/files/usr/include/gtk-2.0
+  127  ./configure --with-gtk=2 --with-gtk-prefix=/data/data/com.termux/files/usr/include/gtk-2.0/gtk
+  128  apt search tiff
+  129  apt install libtiff-dev
+  130  apt search jbg
+  131  apt search jbig
+  132  apt search big
+  133  apt search dec
+  134  gvim config.log
+  135  ./configure --with-gtk=2 --with-gtk-prefix=gtk-2.0/gtk
+  136  gvim configure
+  137  find $PREFIX -name 'gtk.h' -print
+  138  ./configure --with-gtk=2 
+  139  gvim config.log
+  140  find $PREFIX -name 'gtk.h' -print
+  141  ./configure --with-gtk=2 --x-i=/data/data/com.termux/files/usr/include/gtk-2.0
+  142  ./configure --with-gtk=2 --x-i=/data/data/com.termux/files/usr/include/gtk-2.0
+  143  ln -s /data/data/com.termux/files/usr/include/gtk-2.0/gtk /data/data/com.termux/files/usr/include/gtk
+  144  ./configure --with-gtk=2 
+  145  ln -s /data/data/com.termux/files/usr/include/gtk-2.0/gdk /data/data/com.termux/files/usr/include/gdk
+  146  ./configure --with-gtk=2 
+  147  find $PREFIX -name 'gio.h' -print
+  148  ln -s /data/data/com.termux/files/usr/include/glib-2.0/gio /data/data/com.termux/files/usr/include/gio
+  149  ./configure --with-gtk=2 
+  150  find $PREFIX -name 'glib-object.h' -print
+  151  ./configure --with-gtk=2 --x-i=/data/data/com.termux/files/usr/include/glib-2.0
+  152  LD_LIBRARY_PATH+=/data/data/com.termux/files/usr/include/glib-2.0
+  153  ./configure --with-gtk=2
+  154  pkg-config gtk+-2.0 --libs
+  155  find $PREFIX -name 'glib-object.h' -print
+  156  gvim $PREFIX/etc/ld.so.conf
+  157  echo $LD_LIBRARY_PATH/
+  158  ldconfig
+  159  ./configure --with-gtk=2 --prefix=$PREFIX
+  160  find $PREFIX -name 'glib-object.h' -print
+  161  ls /data/data/com.termux/files/usr/include/glib-2.0/glib-object.h
+  162  ls /data/data/com.termux/files/usr/include/glib-2.0/
+  163  ls /data/data/com.termux/files/usr/include/glib-2.0/gobject/
+  164  ls /data/data/com.termux/files/usr/include/glib-2.0/glib-object.h /data/data/com.termux/files/usr/include/glib-2.0/glib-object.h
+  165  ln -s /data/data/com.termux/files/usr/include/glib-2.0/glib-object.h /data/data/com.termux/files/usr/include/glib-object.h
+  166  ./configure --with-gtk=2 --prefix=$PREFIX
+  167  find $PREFIX -name 'gbinding.h' -print
+  168  exportLDFLAGS=/data/data/com.termux/files/usr/include/glib-2.0
+  169  find $PREFIX -name 'gbinding.h' -print
+  170  ./configure --with-gtk=2 --prefix=$PREFIX
+  171  find $PREFIX -name 'gbinding.h' -print
+  172  export LDFLAGS=/data/data/com.termux/files/usr/include/glib-2.0
+  173  ./configure --with-gtk=2 --prefix=$PREFIX
+  174  export LDFLAGS=/data/data/com.termux/files/usr/include/glib-2.0:$PREFIX/include
+  175  ./configure --with-gtk=2 --prefix=$PREFIX
+  176  env
+  177  unset LDFLAGS
+  178  export LIBS=/data/data/com.termux/files/usr/include/glib-2.0:$PREFIX/include
+  179  env
+  180  ./configure --with-gtk=2 --prefix=$PREFIX
+  181  unset LIBS
+  182  ./configure --with-gtk=2 --prefix=$PREFIX
+  183  export LIBS="/data/data/com.termux/files/usr/include/glib-2.0 $PREFIX/include"
+  184  ./configure --with-gtk=2 --prefix=$PREFIX
+  185  export LIBS="-I/data/data/com.termux/files/usr/include/glib-2.0 -I$PREFIX/include"
+  186  ./configure --with-gtk=2 --prefix=$PREFIX
+  187  gvim config.log
+  188  find $PREFIX -name 'glibconfig.h' -print
+  189  export LIBS="-I$PREFIX/glib-2.0 -I$PREFIX/glib-2.0/include -I$PREFIX/include"
+  190  ./configure --with-gtk=2 --prefix=$PREFIX
+  191  find $PREFIX -name 'gbinding.h' -print
+  192  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/include/glib-2.0/include -I$PREFIX/include"
+  193  ./configure --with-gtk=2 --prefix=$PREFIX
+  194  find $PREFIX -name 'glibconfig.h' -print
+  195  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include"
+  196  find $PREFIX -name 'glibconfig.h' -print
+  197  ./configure --with-gtk=2 --prefix=$PREFIX
+  198  find $PREFIX -name 'cairo.h' -print
+  199  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo"
+  200  ./configure --with-gtk=2 --prefix=$PREFIX
+  201  find $PREFIX -name 'pango.h' -print
+  202  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0"
+  203  ./configure --with-gtk=2 --prefix=$PREFIX
+  204  find $PREFIX -name 'gdkconfig.h' -print
+  205  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include"
+  206  ./configure --with-gtk=2 --prefix=$PREFIX
+  207  fg %1
+  208  find $PREFIX -name 'gdk-pixbuf.h' -print
+  209  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0"
+  210  ./configure --with-gtk=2 --prefix=$PREFIX
+  211  find $PREFIX -name 'atk.h' -print
+  212  export LIBS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0"
+  213  ./configure --with-gtk=2 --prefix=$PREFIX
+  214  gvim configure
+  215  export LDFLAGS="-llog"
+  216  ./configure --with-gtk=2 --prefix=$PREFIX
+  217  export LDFLAGS="-llog -v"
+  218  ./configure --with-gtk=2 --prefix=$PREFIX
+  219  apt show gtk2
+  220  history
+  221  history > tmp.txt
+  222  gvim tmp.txt
+  223  pwd
+  224  cd $PREFIX
+  225  cd include
+  226  cd gtk
+  227  grep version *
+  228  grep gtkmain *
+  229  grep version gtkmain.h
+  230  ls -l | grep '^l'
+  231  ls -l | more
+  232  pwd
+  233  cd ..
+  234  ls -l | grep '^l'
+  235  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0"
+  236  cd
+  237  cd wxWidgets/
+  238  ./configure --with-gtk=2 --prefix=$PREFIX
+  239  gvim configure
+  240  ./configure --with-gtk=2 --prefix=$PREFIX --disable-gtktest
+  241  ./configure --with-gtk=2 --prefix=$PREFIX --with-cxx=14
+  242  man gcc
+  243  gcc
+  244  gcc --help
+  245  gcc --help | grep 11
+  246  gcc --help | grep 14
+  247  gcc --help | more
+  248  export LDFLAGS="-llog -v --system-header-prefix=$PREFIX"
+  249  export LDFLAGS="-llog -v --system-header-prefix=$PREFIX"
+  250  ./configure --with-gtk=2 --prefix=$PREFIX
+  251  ls -l $PREFIX/include | grep "^l"
+  252  unling $PREFIX/include/glib-object.h 
+  253  unlink $PREFIX/include/glib-object.h 
+  254  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0 -I$PREFIX/include/glib-2.0"
+  255  unset LIBS
+  256  export LDFLAGS="-llog -v --system-header-prefix=$PREFIX"
+  257  ./configure --with-gtk=2 --prefix=$PREFIX
+  258  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0"
+  259  export CFLAGS="-L$PREFIX/include/glib-2.0 -L$PREFIX/lib/glib-2.0/include -L$PREFIX/include -L$PREFIX/include/cairo -L$PREFIX/include/pango-1.0 -L$PREFIX/lib/gtk-2.0/include -L$PREFIX/include/gdk-pixbuf-2.0 -L$PREFIX/include/atk-1.0"
+  260  ./configure --with-gtk=2 --prefix=$PREFIX
+  261  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0 "
+  262  export CFLAGS="$CFLAGS -L$PREFIX/include/glib-2.0 -L$PREFIX/lib/glib-2.0/include -L$PREFIX/include -L$PREFIX/include/cairo -L$PREFIX/include/pango-1.0 -L$PREFIX/lib/gtk-2.0/include -L$PREFIX/include/gdk-pixbuf-2.0 -L$PREFIX/include/atk-1.0"
+  263  ./configure --with-gtk=2 --prefix=$PREFIX
+  264  export LD_LIBRARY_PATH="$PREFIX/include/glib-2.0:$PREFIX/lib/glib-2.0/include:$PREFIX/include:$PREFIX/include/cairo:$PREFIX/include/pango-1.0:$PREFIX/lib/gtk-2.0/include:$PREFIX/include/gdk-pixbuf-2.0:L$PREFIX/include/atk-1.0"
+  265  ./configure --with-gtk=2 --prefix=$PREFIX
+  266  export LD_LIBRARY_PATH="$PREFIX/include/glib-2.0:$PREFIX/lib/glib-2.0/include:$PREFIX/include:$PREFIX/include/cairo:$PREFIX/include/pango-1.0:$PREFIX/lib/gtk-2.0/include:$PREFIX/include/gdk-pixbuf-2.0:$PREFIX/include/atk-1.0"
+  267  ./configure --with-gtk=2 --prefix=$PREFIX
+  268  find $PREFIX -name gtkmain.h -print
+  269  export LD_LIBRARY_PATH="$PREFIX/include/glib-2.0:$PREFIX/lib/glib-2.0/include:$PREFIX/include:$PREFIX/include/cairo:$PREFIX/include/pango-1.0:$PREFIX/lib/gtk-2.0/include:$PREFIX/include/gdk-pixbuf-2.0:$PREFIX/include/atk-1.0:$PREFIX/include/gtk-2.0/gtk"
+  270  ./configure --with-gtk=2 --prefix=$PREFIX
+  271  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0 "
+  272  export CFLAGS="$CFLAGS -L$PREFIX/include/glib-2.0 -L$PREFIX/lib/glib-2.0/include -L$PREFIX/include -L$PREFIX/include/cairo -L$PREFIX/include/pango-1.0 -L$PREFIX/lib/gtk-2.0/include -L$PREFIX/include/gdk-pixbuf-2.0 -L$PREFIX/include/atk-1.0 -L$PREFIX/include/gtk-2.0/gtk"
+  273  ./configure --with-gtk=2 --prefix=$PREFIX
+  274  pkg-config gtk+-2.0 --libs
+  275  find $PREFIX -name '*pango*' -print
+  276  find $PREFIX -name '*atk-1.0.so' -print
+  277  pkg-config gtk+-2.0 --libs
+  278  find $PREFIX -name '*gtk*.so' -print
+  279  export LD_LIBRARY_PATH=$PREFIX/lib
+  280  ./configure --with-gtk=2 --prefix=$PREFIX
+  281  find $PREFIX -name '*.so' -print | more
+  282  find $PREFIX -name '*.so' -print > libs.txt
+  283  cp libs.txt ld.txt
+  284  gvim ld.txt
+  285  unique ld.txt | more
+  286  uniq ld.txt | more
+  287  uniq ld.txt >ldu.txt
+  288  gvim ldu.txt
+  289  `cat ldu.txt` 
+  290  echo $LD_LIBRARY_PATH 
+  291  gvim ldu.txt
+  292  `cat ldu.txt` 
+  293  `cat ldu.txt` 
+  294  echo $LD_LIBRARY_PATH 
+  295  echo $PREFIX
+  296  cat ldu.txt >> ~/.bashrc
+  297  unset LD_LIBRARY_PATH
+  298  echo ~/.bashrc
+  299  cat ~/.bashrc
+  300  env
+  301  export CFLAGS="-I$PREFIX/include/glib-2.0 -I$PREFIX/lib/glib-2.0/include -I$PREFIX/include -I$PREFIX/include/cairo -I$PREFIX/include/pango-1.0 -I$PREFIX/lib/gtk-2.0/include -I$PREFIX/include/gdk-pixbuf-2.0 -I$PREFIX/include/atk-1.0 "
+  302  export LDFLAGS="-llog -v --system-header-prefix=$PREFIX"
+  303  gvim ~/.bashrc
+  304  apt search glib
+  305  pwd
+  306  cd $PREFIX
+  307  find . -name gtk -print
+  308  cd bin
+  309  ls
+  310  ls gtk*
+  311  gtk-query-settings
+  312  ls gs*
+  313  man gsettings 
+  314  gsettings --help
+  315  gsettings list-keys
+  316  gsettings list-schemas
+  317  gsettings list-keys SCHEMA:org.gtk.Demo
+  318  gsettings list-keys org.gtk.Demo
+  319  gsettings list-recursively org.gtk.Demo
+  320  apt search lcms
+  321  apt search cms
+  322  apt install littlecms-dev
+  323  pwd
+  324  cd ..
+  325  find . -name gtk-config -print
+  326  apt search xlib
+  327  apt install xcb-util-image
+  328  find . -name gtk-config -print
+  329  apt search zlib
+  330  apt install libzopfli-dev
+  331  apt search libc
+  332  apt install libclang-dev
+  333  find . -name gtk-config -print
+  334  gvim bin/gtk-config
+  335  chmod +x bin/gtk-config
+  336  gtk-config
+  337  apt show gtk2
+  338  gvim bin/gtk-config
+  339  gtk-config
+  340  gvim bin/gtk-config
+  341  gtk-config
+  342  gtk-config
+  343  gtk-config
+  344  gtk-config
+  345  gtk-config
+  346  find . -name libffi.pc -print
+  347  apt search ffi
+  348  apt install libffi-dev
+  349  apt install libffi
+  350  gtk-config
+  351  apt search fribi
+  352  apt install fribidi-dev
+  353  gtk-config
+  354  apt install uuid-dev
+  355  apt search uuid
+  356  apt install libuuid-dev
+  357  gtk-config
+  358  apt search xcb
+  359  apt install libxcb-dev
+  360  gtk-config
+  361  apt search xau
+  362  apt install libxau-dev
+  363  gtk-config
+  364  apt search xdmcp
+  365  apt install libxdmcp-dev
+  366  gtk-config
+  367  apt search xext
+  368  apt install libxext-dev
+  369  gtk-config
+  370  history > tmp.txt
+  371  gtk-config >> tmp.txt
+  372  gvim tmp.txt
+  373  man history
+  374  history --help
+  375  gvim tmp.txt
+  376  rm tmp.txt
+  377  gtk-config
+  378  gtk-config | sed -d /-ptrhead/
+  379  gtk-config | sed 's/-ptrhead//'
+  380  gtk-config | sed 's/-pthread//'
+  381  pwd
+  382  top
+  383  pwd
+  384  find . -name '*ICE*' -print
+  385  find . -name '*ICE*' -print | grep -v LICENSE
+  386  apt search ice
+  387  apt install libice-dev
+  388  find . -name '*ICE*' -print | grep -v LICENSE
+  389  top
+  390  env
+  391  pwd
+  392  find . -name '*wx*' -print
+  393  apt search wx
+  394  cd 
+  395  cd wxWidgets/
+  396  vim Makefile
+  397  pwd
+  398  make install
+  399  cp src/generic/grid.cpp src/generic/grid.cpp.old
+  400  gvim src/generic/grid.cpp
+  401  make install
+  402  cp ./src/html/htmlcell.cpp ./src/html/htmlcell.cpp.old
+  403  gvim ./src/html/htmlcell.cpp
+  404  make install
+  405  ls
+  406  lst
+  407  man ls
+  408  ls -tor
+  409  ./wx-config
+  410  ./wx-config --cppflags --cxxflags --cflags --libs
+  411  ls -tor | more
+  412  env
+  413  pwd
+  414  tail make.out
+  415  tail make.err
+  416  tail make.out
+  417  gvim make.err
+  418  ls Make*
+  419  gvim Makefile.in
+  420  env
+  421  man make
+  422  tail make.out
+  423  tail make.err
+  424  tail make.err
+  425  apt search gl
+  426  apt install glu-dev
+  427  pwd
+  428  find $PREFIX -name gl.h -print
+  429  apt search iconv
+  430  apt install libiconv-dev
+  431  apt search notify
+  432  apt install  libnotify-dev
+  433  apt search webkit
+  434  apt search kit
+  435  apt search stream
+  436  apt install gstreamer-dev
+  437  gstreamer
+  438  apt install gst-plugins-base gst-plugins-good
+  439  apt install gst-plugins-base-dev gst-plugins-good-dev
+  440  find $PREFIX -name gl.h -print
+  441  ln -s $PREFIX/include/GLES $PREFIX/include/GL
+  442  find $PREFIX -name 'xf86*.h' -print
+  443  apt secr
+  444  apt search secr
+  445  apt search ssss
+  446  apt search libgf
+  447  apt install libgfshare-dev
+  448  find $PREFIX -name 'sound*.h' -print
+  449  apt show gstreamer
+  450  find $PREFIX -name 'gst.h' -print
+  451  find $PREFIX -name 'sound*.h' -print
+  452  find $PREFIX -name '*secret*.h' -print
+  453  ln -s $PREFIX/include/linux $PREFIX/include/sys
+  454  ls -tor $PREFIX/include | more
+  455  ls -tor $PREFIX/include/sys | more
+  456  unlink $PREFIX/include/sys/lynux
+  457  unlink $PREFIX/include/sys/linux
+  458  gvim $PREFIX/include/linux/soundcard.h
+  459  ls -tor $PREFIX/include/linux/
+  460  pwd
+  461  gvim configure
+  462  ls -tor $PREFIX/include/sys/io*
+  463  ls -tor $PREFIX/include/sys/ao*
+  464  ls -tor $PREFIX/include/sys/so*
+  465  gvim $PREFIX/include/linux/soundcard.h
+  466  ln -s $PREFIX/include/linux $PREFIX/include/sys
+  467  ln -s $PREFIX/include/linux/soundcard.h $PREFIX/include/sys
+  468  unlink $PREFIX/include/sys/linux
+  469  ls -tor $PREFIX/include | more
+  470  ls -tor $PREFIX/include/GL | more
+  471  unlink $PREFIX/include/GL/GLES
+  472  ls -tor $PREFIX/include/GLES | more
+  473  ls -tor $PREFIX/include/GLES2 | more
+  474  ln -s $PREFIX/include/GLES/gl.h $PREFIX/include/GL
+  475  ls -tor $PREFIX/include/GL | more
+  476  pwd
+  477  cd gtk
+  478  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  479  ls -tor $PREFIX/include/GL | more
+  480  ls -tor $PREFIX/include/GLES | more
+  481  gvim $PREFIX/include/GL/gl.h
+  482  ln -s $PREFIX/include/GLES $PREFIX/include/GL
+  483  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  484  env
+  485  find $PREFIX -name gst.h -print
+  486  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  487  env
+  488  gvim config.log
+  489  find $PREFIX -name 'gstre*' -print
+  490  apt search gst
+  491  apt install gst-plugins-base-dev
+  492  find $PREFIX -name 'gstre*' -print
+  493  ../configure --with-gtk=2 --prefix=$PREFIX --with-gtk-prefix=$PREFIX CXXFLAGS="-std=c++11"
+  494  make -j4
+  495  make --help
+  496  pwd
+  497  tail -f make.out
+  498  ls
+  499  history > hist2

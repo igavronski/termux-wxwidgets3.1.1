@@ -22,9 +22,9 @@
 #define wxUSE_UNIX 1
 #define __UNIX__ 1
 
-#define HAVE_NANOSLEEP
+//#define HAVE_NANOSLEEP
 #define HAVE_FCNTL 1
-#define HAVE_GCC_ATOMIC_BUILTINS
+//#define HAVE_GCC_ATOMIC_BUILTINS
 #define HAVE_GETHOSTBYNAME 1
 #define HAVE_GETSERVBYNAME 1
 #define HAVE_GETTIMEOFDAY 1
@@ -40,10 +40,10 @@
 #define HAVE_WPRINTF 1
 
 #define SIZEOF_INT 4
-#define SIZEOF_LONG 4
+//#define SIZEOF_LONG 4
 #define SIZEOF_LONG_LONG 8
-#define SIZEOF_SIZE_T 4
-#define SIZEOF_VOID_P 4
+//#define SIZEOF_SIZE_T 4
+//#define SIZEOF_VOID_P 4
 #define SIZEOF_WCHAR_T 4
 
 #define wxHAVE_PTHREAD_CLEANUP 1

@@ -1,0 +1,44 @@
+In file included from ../src/common/string.cpp:39:
+../include/wx/xlocale.h:251:18: error: use of undeclared identifier 'strtoul_l'
+        { return wxCRT_Strtoul_lA(c, endptr, base, loc.Get()); }
+                 ^
+../include/wx/xlocale.h:244:46: note: expanded from macro 'wxCRT_Strtoul_lA'
+    #define wxCRT_Strtoul_lA wxXLOCALE_IDENT(strtoul_l)
+                                             ^
+../include/wx/xlocale.h:305:22: error: use of undeclared identifier 'wcstod_l'; did you mean 'wcstold_l'?
+            { return wxCRT_Strtod_lW(c, endptr, loc.Get()); }
+                     ^~~~~~~~~~~~~~~
+                     wcstold_l
+../include/wx/xlocale.h:300:49: note: expanded from macro 'wxCRT_Strtod_lW'
+        #define wxCRT_Strtod_lW wxXLOCALE_IDENT(wcstod_l)
+                                                ^
+../include/wx/xlocale.h:59:39: note: expanded from macro 'wxXLOCALE_IDENT'
+        #define wxXLOCALE_IDENT(name) name
+                                      ^
+/data/data/com.termux/files/usr/include/wchar.h:191:13: note: 'wcstold_l' declared here
+long double wcstold_l(const wchar_t* __s, wchar_t** __end_ptr, locale_t __l) __INTRODUCED_IN(21);
+            ^
+In file included from ../src/common/string.cpp:39:
+../include/wx/xlocale.h:307:22: error: use of undeclared identifier 'wcstol_l'; did you mean 'wcstoll_l'?
+            { return wxCRT_Strtol_lW(c, endptr, base, loc.Get()); }
+                     ^~~~~~~~~~~~~~~
+                     wcstoll_l
+../include/wx/xlocale.h:301:49: note: expanded from macro 'wxCRT_Strtol_lW'
+        #define wxCRT_Strtol_lW wxXLOCALE_IDENT(wcstol_l)
+                                                ^
+../include/wx/xlocale.h:59:39: note: expanded from macro 'wxXLOCALE_IDENT'
+        #define wxXLOCALE_IDENT(name) name
+                                      ^
+/data/data/com.termux/files/usr/include/wchar.h:189:11: note: 'wcstoll_l' declared here
+long long wcstoll_l(const wchar_t* __s, wchar_t** __end_ptr, int __base, locale_t __l) __INTRODUCED_IN(21);
+          ^
+In file included from ../src/common/string.cpp:39:
+../include/wx/xlocale.h:309:22: error: use of undeclared identifier 'wcstoul_l'
+            { return wxCRT_Strtoul_lW(c, endptr, base, loc.Get()); }
+                     ^
+../include/wx/xlocale.h:302:50: note: expanded from macro 'wxCRT_Strtoul_lW'
+        #define wxCRT_Strtoul_lW wxXLOCALE_IDENT(wcstoul_l)
+                                                 ^
+4 errors generated.
+make: *** [Makefile:16191: monodll_string.o] Error 1
+make: *** Waiting for unfinished jobs....

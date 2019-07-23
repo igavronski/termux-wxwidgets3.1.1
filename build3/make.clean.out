@@ -1,0 +1,785 @@
+(if test -f utils/wxrc/Makefile ; then cd utils/wxrc && make clean ; fi)
+make[1]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/utils/wxrc'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f wxrc
+make[1]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/utils/wxrc'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxregexu-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxzlib-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxpng-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxjpeg-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxtiff-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxexpat-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwxscintilla-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_net-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_net-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_net-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_net-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_net-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_core-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_core-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_core-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_core-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_core-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_adv-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_adv-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_adv-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_adv-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_adv-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_media-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_media-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_media-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_media-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_media-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_html-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_html-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_html-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_html-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_html-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_webview-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_webview-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_webview-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_webview-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_webview-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_qa-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_qa-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_qa-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_qa-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_qa-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_xml-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_xml-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_xml-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_xml-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_baseu_xml-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_xrc-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_xrc-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_xrc-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_xrc-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_xrc-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_aui-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_aui-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_aui-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_aui-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_aui-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_ribbon-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_ribbon-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_ribbon-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_ribbon-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_ribbon-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_propgrid-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_propgrid-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_propgrid-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_propgrid-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_propgrid-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_richtext-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_richtext-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_richtext-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_richtext-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_richtext-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_stc-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_stc-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_stc-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_stc-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_stc-3.1.a
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_gl-3.1.so.1.0.0
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_gl-3.1.so
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_gl-3.1.so /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_gl-3.1.so.1
+rm -f /data/data/com.termux/files/home/wxWidgets/build3/lib/libwx_gtk2u_gl-3.1.a
+rm -f sound_sdlu-3.1.1.so
+rm -f webkit2_extu-3.1.1.so
+(cd samples && make clean)
+make[1]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples'
+make -C animate clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/animate'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f anitest
+rm -rf anitest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/animate'
+make -C artprov clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/artprov'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f arttest
+rm -rf arttest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/artprov'
+make -C aui clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/aui'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f auidemo
+rm -rf auidemo.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/aui'
+make -C calendar clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/calendar'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f calendar
+rm -rf calendar.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/calendar'
+make -C caret clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/caret'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f caret
+rm -rf caret.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/caret'
+make -C clipboard clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/clipboard'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f clipboard
+rm -rf clipboard.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/clipboard'
+make -C collpane clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/collpane'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f collpane
+rm -rf collpane.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/collpane'
+make -C combo clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/combo'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f combo
+rm -rf combo.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/combo'
+make -C config clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/config'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f conftest
+rm -rf conftest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/config'
+make -C console clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/console'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f console
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/console'
+make -C dataview clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dataview'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f dataview
+rm -rf dataview.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dataview'
+make -C debugrpt clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/debugrpt'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f debugrpt
+rm -rf debugrpt.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/debugrpt'
+make -C dialogs clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dialogs'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f dialogs
+rm -rf dialogs.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dialogs'
+make -C dialup clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dialup'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f nettest
+rm -rf nettest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dialup'
+make -C display clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/display'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f display
+rm -rf display.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/display'
+make -C dnd clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dnd'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f dnd
+rm -rf dnd.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dnd'
+make -C docview clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/docview'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f docview
+rm -rf docview.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/docview'
+make -C dragimag clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dragimag'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f dragimag
+rm -rf dragimag.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/dragimag'
+make -C drawing clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/drawing'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f drawing
+rm -rf drawing.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/drawing'
+make -C erase clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/erase'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f erase
+rm -rf erase.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/erase'
+make -C event clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/event'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f event
+rm -rf event.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/event'
+make -C except clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/except'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f except
+rm -rf except.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/except'
+make -C exec clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/exec'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f exec
+rm -rf exec.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/exec'
+make -C font clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/font'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f font
+rm -rf font.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/font'
+make -C fswatcher clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/fswatcher'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f fswatcher
+rm -rf fswatcher.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/fswatcher'
+make -C grid clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/grid'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f grid
+rm -rf grid.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/grid'
+make -C help clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/help'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f help
+rm -rf help.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/help'
+make -C htlbox clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/htlbox'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f htlbox
+rm -rf htlbox.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/htlbox'
+make -C html clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+(cd about && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/about'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f about
+rm -rf about.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/about'
+(cd help && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/help'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f htmlhelp
+rm -rf htmlhelp.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/help'
+(cd helpview && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/helpview'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f helpview
+rm -rf helpview.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/helpview'
+(cd printing && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/printing'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f htmlprinting
+rm -rf htmlprinting.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/printing'
+(cd test && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/test'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f test
+rm -rf test.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/test'
+(cd virtual && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/virtual'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f virtual
+rm -rf virtual.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/virtual'
+(cd widget && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/widget'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f widget
+rm -rf widget.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/widget'
+(cd zip && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/zip'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f zip
+rm -rf zip.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/zip'
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html'
+make -C html/about clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/about'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f about
+rm -rf about.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/about'
+make -C html/help clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/help'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f htmlhelp
+rm -rf htmlhelp.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/help'
+make -C html/helpview clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/helpview'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f helpview
+rm -rf helpview.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/helpview'
+make -C html/printing clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/printing'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f htmlprinting
+rm -rf htmlprinting.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/printing'
+make -C html/test clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/test'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f test
+rm -rf test.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/test'
+make -C html/virtual clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/virtual'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f virtual
+rm -rf virtual.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/virtual'
+make -C html/widget clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/widget'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f widget
+rm -rf widget.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/widget'
+make -C html/zip clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/zip'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f zip
+rm -rf zip.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/html/zip'
+make -C image clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/image'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f image
+rm -rf image.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/image'
+make -C internat clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/internat'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f internat
+rm -rf internat.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/internat'
+make -C ipc clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/ipc'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f ipcclient
+rm -rf ipcclient.app
+rm -f ipcserver
+rm -rf ipcserver.app
+rm -f baseipcclient
+rm -f baseipcserver
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/ipc'
+make -C joytest clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/joytest'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f joytest
+rm -rf joytest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/joytest'
+make -C keyboard clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/keyboard'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f keyboard
+rm -rf keyboard.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/keyboard'
+make -C layout clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/layout'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f layout
+rm -rf layout.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/layout'
+make -C listctrl clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/listctrl'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f listctrl
+rm -rf listctrl.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/listctrl'
+make -C mdi clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/mdi'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f mdi
+rm -rf mdi.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/mdi'
+make -C mediaplayer clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/mediaplayer'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f mediaplayer
+rm -rf mediaplayer.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/mediaplayer'
+make -C menu clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/menu'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f menu
+rm -rf menu.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/menu'
+make -C minimal clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/minimal'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f minimal
+rm -rf minimal.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/minimal'
+make -C notebook clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/notebook'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f notebook
+rm -rf notebook.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/notebook'
+make -C opengl clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+(cd cube && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/cube'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f cube
+rm -rf cube.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/cube'
+(cd isosurf && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/isosurf'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f isosurf
+rm -rf isosurf.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/isosurf'
+(cd penguin && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/penguin'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f penguin
+rm -rf penguin.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/penguin'
+(cd pyramid && make clean)
+make[3]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/pyramid'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f pyramid
+rm -rf pyramid.app
+make[3]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/pyramid'
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl'
+make -C opengl/cube clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/cube'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f cube
+rm -rf cube.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/cube'
+make -C opengl/isosurf clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/isosurf'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f isosurf
+rm -rf isosurf.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/isosurf'
+make -C opengl/penguin clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/penguin'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f penguin
+rm -rf penguin.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/penguin'
+make -C opengl/pyramid clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/pyramid'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f pyramid
+rm -rf pyramid.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/opengl/pyramid'
+make -C popup clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/popup'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f popup
+rm -rf popup.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/popup'
+make -C power clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/power'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f power
+rm -rf power.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/power'
+make -C preferences clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/preferences'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f preferences
+rm -rf preferences.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/preferences'
+make -C printing clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/printing'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f printing
+rm -rf printing.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/printing'
+make -C propgrid clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/propgrid'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f propgrid
+rm -rf propgrid.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/propgrid'
+make -C render clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/render'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f render
+rm -rf render.app
+rm -f renddll_gtk2u-3.1.1.so
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/render'
+make -C ribbon clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/ribbon'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f ribbon
+rm -rf ribbon.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/ribbon'
+make -C richtext clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/richtext'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f richtext
+rm -rf richtext.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/richtext'
+make -C sashtest clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/sashtest'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f sashtest
+rm -rf sashtest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/sashtest'
+make -C scroll clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/scroll'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f scroll
+rm -rf scroll.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/scroll'
+make -C shaped clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/shaped'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f shaped
+rm -rf shaped.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/shaped'
+make -C sockets clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/sockets'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f client
+rm -rf client.app
+rm -f server
+rm -rf server.app
+rm -f baseclient
+rm -f baseserver
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/sockets'
+make -C sound clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/sound'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f sound
+rm -rf sound.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/sound'
+make -C splash clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/splash'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f splash
+rm -rf splash.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/splash'
+make -C splitter clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/splitter'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f splitter
+rm -rf splitter.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/splitter'
+make -C statbar clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/statbar'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f statbar
+rm -rf statbar.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/statbar'
+make -C stc clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/stc'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f stctest
+rm -rf stctest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/stc'
+make -C svg clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/svg'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f svgtest
+rm -rf svgtest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/svg'
+make -C taborder clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/taborder'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f taborder
+rm -rf taborder.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/taborder'
+make -C taskbar clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/taskbar'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f taskbar
+rm -rf taskbar.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/taskbar'
+make -C text clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/text'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f text
+rm -rf text.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/text'
+make -C thread clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/thread'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f thread
+rm -rf thread.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/thread'
+make -C toolbar clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/toolbar'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f toolbar
+rm -rf toolbar.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/toolbar'
+make -C treectrl clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/treectrl'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f treectrl
+rm -rf treectrl.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/treectrl'
+make -C treelist clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/treelist'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f treelist
+rm -rf treelist.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/treelist'
+make -C typetest clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/typetest'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f typetest
+rm -rf typetest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/typetest'
+make -C uiaction clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/uiaction'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f uiaction
+rm -rf uiaction.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/uiaction'
+make -C validate clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/validate'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f validate
+rm -rf validate.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/validate'
+make -C vscroll clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/vscroll'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f vstest
+rm -rf vstest.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/vscroll'
+make -C widgets clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/widgets'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f widgets
+rm -rf widgets.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/widgets'
+make -C wizard clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/wizard'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f wizard
+rm -rf wizard.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/wizard'
+make -C wrapsizer clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/wrapsizer'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f wrapsizer
+rm -rf wrapsizer.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/wrapsizer'
+make -C xrc clean 
+make[2]: Entering directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/xrc'
+rm -rf ./.deps ./.pch
+rm -f ./*.o
+rm -f xrcdemo
+rm -rf xrcdemo.app
+make[2]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples/xrc'
+make[1]: Leaving directory '/data/data/com.termux/files/home/wxWidgets/build3/samples'

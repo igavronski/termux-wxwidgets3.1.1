@@ -1,0 +1,500 @@
+   10  ls -l libwx_gtk2u_core*
+   11  unlink libwx_gtk2u_core-3.1.so
+   12  ln -s libwx_gtk2u_core-3.1.so.1 libwx_gtk2u_core-3.1.so
+   13  cd ../utils
+   14  cd wxrc
+   15  ls
+   16  gvim Makefile
+   17  make install
+   18  make install
+   19  make install
+   20  make install > make.out
+   21  gvim make.out
+   22  bash make.out
+   23  cd ../..
+   24  ls
+   25  ls Make*
+   26  cp Makefile ../Makefile.iuri
+   27  make clean
+   28  ls
+   29  more change-install-names 
+   30  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin
+   31  gvim config.log
+   32  gvim ~/.bashrc
+   33  ~/.bashrc
+   34  bash ~/.bashrc
+   35  env
+   36  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin
+   37  term&
+   38  pwd
+   39  ls
+   40  more make.err
+   41  gvim ../src/common/fmapbase.cpp
+   42  grep overload make.err
+   43  gvim ../src/common/filesys.cpp
+   44  gvim ../src/common/filefn.cpp
+   45  grep overload make.err
+   46  more make.err
+   47  tail -f  make.err
+   48  tail -f  make.err
+   49  pwd
+   50  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin
+   51  more config.status 
+   52  make install
+   53  mak-j8 e install
+   54  make -j8 install
+   55  gvim ../src/common/cmdline.cpp 
+   56  make -j8 install
+   57  gvim ../src/common/fileconf.cpp
+   58  make --help
+   59  make -j8 -k install 2> make.err
+   60  gvim ../Makefile.iuri 
+   61  gvim Makefile
+   62  make -j8 install 2> make.err
+   63  make clean >&/dev/null
+   64  make -j8 install 2> make.err
+   65  history
+   66  cd wxWidgets/gtk/
+   67  cd utils/wxrc/
+   68  make
+   69  make install
+   70  pwd
+   71  disp
+   72  disp 105
+   73  export DISPLAY=10.0.0.105:0
+   74  term&
+   75  term&
+   76  term&
+   77  pwd
+   78  cd wxWidgets
+   79  ls
+   80  cp configure ../storage/downloads
+   81  pwd
+   82  pwd
+   83  cd gtk
+   84  ls
+   85  ls *tmp
+   86  rm *tmp
+   87  l
+   88  ls
+   89  pwd
+   90  env
+   91  export SDL_CONFIG=sdl2-config
+   92  $SDL_CONFIG --libs
+   93  ../configure --with-gtk=2 --enable-cmdline --enable-sdltest --enable-gtktest --exec_prefix=$p --with-gtk-exec-prefix=$p
+   94  ls
+   95  cp config.log ../../storage/downloads
+   96  make -j8 install
+   97  find $p -name locale -print
+   98  vim Makefile
+   99  vim Makefile
+  100  make -j8 install
+  101  vim Makefile
+  102  make -j8 install
+  103  vim Makefile
+  104  make -j8 install
+  105  vim Makefile
+  106  make clean
+  107  ../configure --with-gtk=2 --enable-cmdline --enable-sdltest --enable-gtktest --exec_prefix=$p --with-gtk-exec-prefix=$p --with-sdl-exec-prefix=$p
+  108  find .. -name setup.h -print
+  109  vim ../include/wx/android/setup.h
+  110  grep SIZEOF `vim ../include/wx/android/setup.h`
+  111  grep SIZEOF `find .. -name setup.h -print0`
+  112  grep SIZEOF `find .. -name setup.h -print`
+  113  grep SIZEOF `find $p -name setup.h -print`
+  114  grep SIZEOF `find $p -name '*.h' -print`
+  115  grep SIZEOF `find $p -name '*.h' -print`|more
+  116  grep SIZEOF_LONG `find $p -name '*.h' -print`|more
+  117  grep "define SIZEOF_LONG" `find $p -name '*.h' -print`|more
+  118  grep "define SIZEOF_LONG" `find ~ -name '*.h' -print`|more
+  119  vim ../include/wx/android/config_android.h
+  120  pwd
+  121  ls
+  122  make -j8 install
+  123  cd samples
+  124  cd calendar
+  125  make
+  126  vim Makefile
+  127  cd ../..
+  128  pwd
+  129  make -j8 build
+  130  vim Makefile
+  131  ls $p
+  132  ls $p/share
+  133  pwd
+  134  vim Makefile
+  135  passwd
+  136  ifconfig
+  137  whoami
+  138  ping 191.4.81.16
+  139  apt search sdl
+  140  sdl2-config
+  141  sdl2-config --prefix
+  142  sdl2-config --exec-prefix
+  143  sdl2-config --version
+  144  sdl2-config --cflags
+  145  pwd
+  146  cd samples/calendar/
+  147  make
+  148  man ld
+  149  env
+  150  pwd
+  151  make install
+  152  ls
+  153  pwd
+  154  make
+  155  cd $p
+  156  grep -r vsnwprint *|more
+  157  grep -r SIZE_OF_LONG *|more
+  158  grep -r SIZEOF_LONG *|more
+  159  pkg search ppl
+  160  pwd
+  161  cd 
+  162  cd wxWidgets/
+  163  cd include/
+  164  cd wx
+  165  ls
+  166  cd android/
+  167  ls
+  168  vim config_android.h 
+  169  pwd
+  170  cd ..
+  171  cd ..
+  172  cd ..
+  173  cd gtk
+  174  ls
+  175  vim Makefile
+  176  pwd
+  177  make -j8 install
+  178  fg %1
+  179  make -j8 install
+  180  make -j8 install
+  181  make -j8 install
+  182  make -j8 install
+  183  make -j8 install
+  184  make -j8 install
+  185  env |grep ^D
+  186  env |grep DI
+  187  export DISPLAY=10.0.0.105:0
+  188  term&
+  189  sshd
+  190  pkg i openssh
+  191  pwd
+  192  echo $PATH
+  193  ifconfig |grep inet
+  194  ifconfig |grep inet|grep -v 127.0.0.1
+  195  ip
+  196  ipad
+  197  ipa
+  198  echo 'ifconfig |grep inet|grep -v 127.0.0.1' >ipa
+  199  ./ipa
+  200  echo $PATH
+  201  mv ipa $p/bin
+  202  ipa
+  203  chmod +x $p/bin/ipa
+  204  ipa
+  205  man ip
+  206  ip --help|more
+  207  ipa
+  208  ipad
+  209  apt i --force-reinstall termux-tools
+  210  apt install --force-reinstall termux-tools
+  211  apt install
+  212  apt install help
+  213  apt install --help
+  214  man apt
+  215  apt update
+  216  apt upgrade
+  217  apt search wx
+  218  apt install --reinstall termux-tools
+  219  man ip
+  220  mandb
+  221  mandoc
+  222  man mandoc
+  223  dpkg -L termux-utils
+  224  dpkg -L termux-tools
+  225  ls -l $p/share/doc/termux-tools/
+  226  ls -l $p/share/doc/ |more
+  227  ls -l $p/sh
+  228  ls -l $p/
+  229  ls -l $p/bin |more
+  230  wx-config
+  231  wx-config --libs
+  232  pwd
+  233  vim ~/.bashrc
+  234  vim ~/.bashrc
+  235  pwd
+  236  grep -r wxAppConsoleBase *
+  237  pwd
+  238  find . -name 'libwxmsw31u' -print
+  239  find . -name 'libwxmsw31u*' -print
+  240  find $p -name 'libwxmsw31u*' -print
+  241  find $p -name 'libwx*' -print
+  242  pwd
+  243  cd $p/lib
+  244  grep -r wxAppConsoleBase *
+  245  export DISPLAY=10.0.0.105:0
+  246  term&
+  247  alias
+  248  disp 105:0
+  249  disp
+  250  env
+  251  disp.105
+  252  disp 105
+  253  vim ~/.bashrc
+  254  vim ~/.bashrc
+  255  ls $p/bin/ip*
+  256  cat $p/bin/ipa
+  257  pwd
+  258  make
+  259  ls samples
+  260  cd smples
+  261  cd samples
+  262  mkdir hello
+  263  cd hello
+  264  gvim hello.cpp
+  265  make hello.cpp
+  266  g++ hello.cpp
+  267  ls $i/wx
+  268  pwd
+  269  cd ../..
+  270  make install
+  271  cmake
+  272  man make
+  273  man cmake
+  274  cmake --help
+  275  platform
+  276  uname -a
+  277  make --version
+  278  g++ --version
+  279  wget --help
+  280  pwd
+  281  wget https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.1/wxWidgets-3.1.1.tar.bz2
+  282  ls
+  283  tar -xf wxWidgets-3.1.1.tar.bz2 
+  284  ls
+  285  exit
+  286  make -j8
+  287  make -j8
+  288  make clean >&/dev/null
+  289  make -j8
+  290  make clean >&/dev/null
+  291  stl2-config
+  292  stl-config
+  293  apt search stl
+  294  pkg-config stl
+  295  pkg-config gtk
+  296  pkg-config gtk2
+  297  pkg-config --help
+  298  pkconfig python
+  299  pkg-config python
+  300  pkg-config python --version
+  301  pkg-config sdl22 --version
+  302  pkg-config sdl2 --validate
+  303  pkg-config sdl --validate
+  304  pkg-config gtk+2-0 --validate
+  305  pkg-config gtk+2.0 --validate
+  306  pkg-config gtk+2 --validate
+  307  pkg-config gtk --validate
+  308  pkg-config gtk2 --validate
+  309  pkg-config gtk-2 --validate
+  310  apt search sysroot
+  311  mt
+  312  apt search mt
+  313  apt install mtdev-dev
+  314  apt search concurr
+  315  apt search ldconfig
+  316  apt search ld
+  317  make -
+  318  make clean >&/dev/null
+  319  make -j8 >&make.out
+  320  make  >&make.out
+  321  cp make.out ~/storage/downloads/make.out.txt 
+  322  pwd
+  323  cd 
+  324  pwd
+  325  las
+  326  ls
+  327  git clone https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.1/wxWidgets-3.1.1.tar.bz2
+  328  git clone https://github.com/wxWidgets/wxWidgets/archive/v3.1.1.tar.gz
+  329  wget https://github.com/wxWidgets/wxWidgets/archive/v3.1.1.tar.gz
+  330  wget http://github.com/wxWidgets/wxWidgets/archive/v3.1.1.tar.gz
+  331  man wget
+  332  wget --help
+  333  wget https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.1/wxWidgets-3.1.1.tar.bz2
+  334  apt search wget
+  335  apt install wget
+  336  wget https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.1/wxWidgets-3.1.1.tar.bz2
+  337  dpkg -L wget
+  338  which wget
+  339  wget --help
+  340  ls -l $p/bin/w*
+  341  term
+  342  pwd
+  343  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-utf8only
+  344  make clean
+  345  make clean
+  346  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-utf8
+  347  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --with-stl=builtin --with-libmspack=builtin --with-sdl=builtin --enable-utf8
+  348  ..configure --help 
+  349  ../configure --help 
+  350  ../configure --help | grep -i stl
+  351  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl=builtin --with-libmspack=builtin --with-sdl=builtin --enable-utf8
+  352  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl=builtin --with-libmspack=builtin --with-sdl=builtin --enable-utf8only
+  353  grep -i sdl configure| more
+  354  grep -i sdl ../configure| more
+  355  sdl2-config
+  356  export SDL_CONFIG=sdl2-config
+  357  grep SDL ../configure| more
+  358  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=sys --enable-stl=sys --with-libmspack=builtin --with-sdl=sys --enable-utf8only
+  359  export SDL_CONFIG=sdl2-config
+  360  export SDL_CONFIG=sdl-config
+  361  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-libmspack=builtin --with-sdl --enable-utf8only
+  362  ../configure --help | more
+  363  pkg search notify
+  364  pkg i inotify-tools-dev
+  365  man inotify
+  366  man inotify-tools
+  367  dpkg -L inotify-tools
+  368  pwd
+  369  gvim config.log
+  370  cd ../..
+  371  cd wxWidgets-3.1.1
+  372  cd gtk
+  373  make -j8
+  374  make clean
+  375  make -j8 >& make.out
+  376  gvim make.out
+  377  gvim make.out
+  378  gvim make.out
+  379  pwd
+  380  ../configure --help | grep unsafe
+  381  make clean>&/dev/null
+  382  make -j8 >& make.out
+  383  pwd
+  384  cd ../../wxWidgets/gtk
+  385  make clean>&/dev/null
+  386  make -j8 >& make.out
+  387  cd ../../wxWidgets/gtk
+  388  pwd
+  389  make clean>&/dev/null
+  390  make -j8 >& make.out
+  391  gvim make.out
+  392  make clean>&/dev/null
+  393  pwd
+  394  make -j8 >& make.out
+  395  pwd
+  396  cd 
+  397  cd audacity-minsrc-2.3.2
+  398  ks
+  399  ls
+  400  cd build
+  401  ls
+  402  gvim config.log
+  403  apt search flac
+  404  apt install libflac-dev
+  405  apt search id3
+  406  apt install libid3tag-dev
+  407  apt install libmad-dev
+  408  apt search touch
+  409  apt search sound
+  410  apt search vorbis
+  411  apt install libvorbis-dev
+  412  apt search widget
+  413  apt search tar
+  414  tar --help
+  415  pwd
+  416  gvim config.loh
+  417  gvim config.log
+  418  dkpg -L libflac-dev
+  419  dpkg -L libflac-dev
+  420  pkgconfig libflac
+  421  pkg-config libflac
+  422  pkg-config libflac --libs
+  423  pkg-config flac --libs
+  424  pkg-config flac --cflags
+  425  pkg-config flac --cxxflags
+  426  pkg-config --help
+  427  pwd
+  428  cd 
+  429  cd wxWidgets-3.1.1
+  430  l
+  431  ls
+  432  mkdir gtl
+  433  rmdir gtl
+  434  mkdir gtk
+  435  cd gtk
+  436  grep SDL_ ..configure
+  437  grep SDL_ ../configure
+  438  sdl
+  439  sld-cpmfog
+  440  sld-config
+  441  sdl-config
+  442  export SDL_CONFIG=sld-config
+  443  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8
+  444  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8-only
+  445  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only
+  446  vim Makefile
+  447  pwd
+  448  ls
+  449  pwd
+  450  grep wxUSE_UNSAFE_WXSTRING_CONV *
+  451  ../configure --help | grep UNSAFE
+  452  ../configure --help | grep -i unsafe
+  453  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only --disable-unsafe_conv_in_wxstring 
+  454  ../configure --help | grep -i gui
+  455  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only --disable-unsafe_conv_in_wxstring --enable-gui
+  456  ../configure --help | grep -i gui
+  457  ../configure --help | grep -i native
+  458  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only --disable-unsafe_conv_in_wxstring --enable-gui --enable-universal
+  459  gvim make.out
+  460  pwd
+  461  cd ../../wxWidgets/gtk
+  462  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only --disable-unsafe_conv_in_wxstring --enable-gui --enable-universal --disable-xlocale
+  463  gvim make.out
+  464  cd ../../wxWidgets-3.1.1/gtk
+  465  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only --disable-unsafe_conv_in_wxstring --enable-gui --enable-universal --disable-xlocale
+  466  gvim make.out
+  467  gvim config.out
+  468  ls config*
+  469  gvim config.log
+  470  cd ../../wxWidgets/gtk
+  471  ../configure --with-gtk=2 --enable-cmdline --enable-monolithic --with-expat=builtin --enable-stl --with-sdl --enable-utf8 --enable-utf8only --disable-unsafe_conv_in_wxstring --enable-gui --disable-xlocale
+  472  pwd
+  473  gvim config.log
+  474  find $p -name execinfo.h -print
+  475  apt search execinfo
+  476  apt search glibc
+  477  apt search argp
+  478  dpkg -L argp
+  479  gvim make.out
+  480  apt search GNU | more
+  481  apt search npth
+  482  apt install libnpth-dev
+  483  dpkg -L libnpth-dev
+  484  pwd
+  485  ls
+  486  cd samples/calendar/
+  487  make
+  488  ls
+  489  ./calendar
+  490  env
+  491  apt list --installed
+  492  cd
+  493  ls
+  494  cd audacity-minsrc-2.3.2
+  495  ls
+  496  mkdir build
+  497  cd build
+  498  ../configure --with-lib-preference="local system"
+  499  ../configure --with-lib-preference="local system"
+  500  jobs
+  501  ps -ef
+  502  cd wxWidgets
+  503  cd build2
+  504  l
+  505  ls
+  506  gvim make.out
+  507  pwd
+  508  ls hist*
+  509  history > hist1
