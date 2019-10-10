@@ -1,0 +1,9 @@
+#!/bin/bash
+make clean >&/dev/null
+dirs='--prefix=/data/data/com.termux/files/usr --exec-prefix=/data/data/com.termux/files/usr --sbindir=/data/data/com.termux/files/usr/bin --libexecdir=/data/data/com.termux/files/usr/lib --includedir=/data/data/com.termux/files/usr/include --oldincludedir=/data/data/com.termux/files/usr/include --localedir=/data/data/com.termux/files/usr/share/locale --datarootdir=/data/data/com.termux/files/usr/share'
+../configure $dirs --with-gtk=2 --enable-gui \
+	--with-regex=sys \
+	--enable-cmdline \
+	--enable-monolithic \
+	--enable-xlocale >& config.out
+make install -j8 >& make.out
